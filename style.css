@@ -1,0 +1,61 @@
+
+
+html { 
+  background: url(me.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: tahoma;
+}
+
+a.nav {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contains {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.nav {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    border: none;
+}
+
+.maintext { 
+    position: relative;
+    top: 15%;
+    left: 8%;
+    width: 45%;
+    border: none; 
+}
+
+h1 { 
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+h2 { 
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.5em;}
