@@ -1,7 +1,7 @@
 
 
 html { 
-    background: url(me.jpg) no-repeat center center fixed; 
+    background-color: #ffffff;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,6 +12,7 @@ html {
 body {
     height: 100%;
     font-family: 'Raleway';
+    font-weight: normal;
     font-size: 18px;
 }
 
@@ -46,7 +47,9 @@ a.nav {
 
 
 .main {
+    position: relative;
     width: 50%;
+    top: 10%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -60,14 +63,14 @@ a.nav {
 }
 
 h1 { 
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
-    font-size: 48px;
+    font-size: 32px;
 }
 
 h2 { 
     color: #ffffff;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 1.2em;
     display: inline;
 }
