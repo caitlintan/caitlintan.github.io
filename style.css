@@ -1,3 +1,9 @@
-body, p {
+body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 200%;
 }
